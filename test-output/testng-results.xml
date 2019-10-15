@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[UserA A]]>
+    </line>
+    <line>
+      <![CDATA[UserB B]]>
+    </line>
+    <line>
+      <![CDATA[UserC C]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78" started-at="2019-10-01T10:44:23 IST" finished-at="2019-10-01T10:44:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78" started-at="2019-10-01T10:44:23 IST" finished-at="2019-10-01T10:44:23 IST">
+      <class name="DemoDataP">
+        <test-method status="PASS" signature="demo(java.lang.String, java.lang.String)[pri:0, instance:DemoDataP@5ec0a365]" name="demo" duration-ms="15" started-at="2019-10-01T10:44:23 IST" data-provider="dataRead" finished-at="2019-10-01T10:44:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[UserB B]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="demo(java.lang.String, java.lang.String)[pri:0, instance:DemoDataP@5ec0a365]" name="demo" duration-ms="0" started-at="2019-10-01T10:44:23 IST" data-provider="dataRead" finished-at="2019-10-01T10:44:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[UserA A]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="demo(java.lang.String, java.lang.String)[pri:0, instance:DemoDataP@5ec0a365]" name="demo" duration-ms="0" started-at="2019-10-01T10:44:23 IST" data-provider="dataRead" finished-at="2019-10-01T10:44:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[UserC C]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- DemoDataP -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
